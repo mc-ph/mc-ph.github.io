@@ -1598,7 +1598,7 @@ $(function () {
     $(document).on("click", ".specsZan", function () {
         $(this).postLike();
     });
-    console.log('\n %c LOVE109❤️纪实小屋 %c https://www.love109.cn/ %c 愁啥呢？还不快来交换友链！\n','color: #ffffff; background: #ff69b4; padding:5px 0;','background: #9B30FF; padding:5px 0;','color: #ffffff; background: #ff69b4; padding:5px 0;');
+    console.log('\n %c MCPH❤️爱情小屋 %c https://mcph.thlz.xyz/ %c 瞅啥呢？还不快来交换友链！\n','color: #ffffff; background: #ff69b4; padding:5px 0;','background: #9B30FF; padding:5px 0;','color: #ffffff; background: #ff69b4; padding:5px 0;');
 });
 var isWebkit = navigator.userAgent.toLowerCase().indexOf('webkit') > -1,
     isOpera = navigator.userAgent.toLowerCase().indexOf('opera') > -1,
