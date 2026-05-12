@@ -1,0 +1,581 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>恋爱语录</title>
+    <meta name="keywords" content="暧昧">
+    <meta name="description" content="暧昧">
+    <link rel="stylesheet" href="/static/Style/Index.css">
+    <link rel="stylesheet" href="/static/Style/Style.css">
+    <link rel="stylesheet" href="/static/Style/Animate.css">
+    <link href="/static/Style/IndexStyle.css" rel="stylesheet" type="text/css" media="screen">
+    <script type="text/javascript" src="/static/Script/jquery-1.42.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <h1><a href="/">Love Anniversary</a></h1>
+            <h2>恋爱语录记载！</h2>
+        </div>
+ <!--       <div id="menu">
+            <ul>
+                <li ><a href="Home.html" title="爱的首页">Love首页</a></li>
+                <li class="tu"><a href="Diary.html" title="我们之间的甜言蜜语">Love蜜语</a></li>
+                <li ><a href="Album.html"  title="爱的相册">Love相册</a></li>
+                <li><a href="Travel.html"  title="爱的旅行">Love旅游</a></li>
+                <li ><a href="Love.html"  title="爱的表白">Love表白</a></li>
+                <li><a href="Time.html"  title="我们的纪念时" target="_blank">Love时间</a></li>
+            </ul>
+        </div>  -->
+		
+		 <!-- 彩色滚动变换字体 -->
+        <div id="binft" class="text" style="text-align:center;color:#FF0000;font-size:xx-large"></div>
+        <script>
+          var binft = function (r) {
+            function t() {
+              return b[Math.floor(Math.random() * b.length)]
+            }  
+            function e() {
+              return String.fromCharCode(94 * Math.random() + 33)
+            }
+            function n(r) {
+              for (var n = document.createDocumentFragment(), i = 0; r > i; i++) {
+                var l = document.createElement("span");
+                l.textContent = e(), l.style.color = t(), n.appendChild(l)
+              }
+              return n
+            }
+            function i() {
+              var t = o[c.skillI];
+              c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d)
+            }
+            var l = "",
+            o = ["我住长江头，君住长江尾。","日日思君不见君，共饮长江水。","此水几时休？此恨几时已？","只愿君心似我心，定不负相思意！","撒花，撒花，撒花~~"].map(function (r) {          
+            return r + ""
+            }),
+            a = 2,
+            g = 1,
+            s = 5,
+            d = 75,
+            b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],
+            c = {
+              text: "",
+              prefixP: -s,
+              skillI: 0,
+              skillP: 0,
+              direction: "forward",
+              delay: a,
+              step: g
+            };
+            i()
+            };
+            binft(document.getElementById('binft'));
+        </script>
+		</div>
+    </div>
+    <hr />
+    <div id="main">
+         <div id="s_about">
+             <div class="tongy">
+                 <div class="tg_1">
+                     <span class="shouye">
+                         <a href="/" title="首页">首页</a>
+                     </span>>><h1>恋爱语录</h1><span>Say</span>
+                 </div>
+                 <p>记录那些令人心动的瞬间</p>
+                 <div class="clear"></div>
+             </div>
+             <div id="a_say" ></div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>陈工在干嘛
+                         <span>2025-10-31</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>在研究汉字的博大精深
+                         <span>2025-10-31</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>我也想研究一下， zkss
+                         <span>2025-10-31</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>有的人想我了，不说想我，却说在干嘛
+                         <span>2025-10-31</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>满分120分的卷子，你肯定有119分
+                         <span>2025-10-31</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>来了钟老师
+                         <span>2025-11-11</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>what are you doing
+                         <span>2025-11-11</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>在研究东西
+                         <span>2025-11-11</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>研究啥
+                         <span>2025-11-11</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>研究多少度的水泡你合适
+                         <span>2025-11-11</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p><img src="/static/images/chat/lianhong.jpg" style="width: 60px;height: 60px">
+                         <span>2025-11-11</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>少男的脸红胜过一切
+                         <span>2025-11-11</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p><img src="/static/images/chat/bqb1.jpg" style="width: 80px;height: 65px">
+                         <span>2025-11-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>姐姐没有这些东西
+                         <span>2025-11-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>但是我有个单, 一会你签收一下
+                         <span>2025-11-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p><img src="/static/images/chat/bqb2.jpg" style="width: 65px;height: 65px">
+                         <span>2025-11-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>姐的孤单
+                         <span>2025-11-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>你好会啊姐姐
+                         <span>2025-11-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>想你了哥哥
+                         <span>2025-11-19</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>想你了网友
+                         <span>2025-11-19</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>想你了陌生人
+                         <span>2025-11-19</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>不想了
+                         <span>2025-11-19</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>你这想怎么转换的这么快呢
+                         <span>2025-11-19</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>前后间隔不到一秒
+                         <span>2025-11-19</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>上一秒爱你下一秒不爱你
+                         <span>2025-11-19</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+			 <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>所以你每一秒都要在
+                         <span>2025-11-19</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>假如你开船经过一个荒岛
+                         <span>2026-04-03</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>这时你发现岛上有4个傻子
+                         <span>2026-04-03</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>你会救吗
+                         <span>2026-04-03</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>我救两个
+                         <span>2026-04-03</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>剩两个
+                         <span>2026-04-03</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p><img src="/static/images/chat/bqb3.jpg" style="width: 65px;height: 65px">
+                         <span>2026-04-03</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+			 <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>哥哥，所以你救不救4个傻子
+                         <span>2026-04-03</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>我救行了吧
+                         <span>2026-04-03</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>怎么还追着杀
+                         <span>2026-04-03</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+			 <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>你就是个傻子我也喜欢你
+                         <span>2026-04-03</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>第一次约会，你说带我去蜜雪冰城，我说我不会滑雪，你说是喝奶茶的，那一刻我自卑到了极点
+                         <span>2026-04-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>不怪你
+                         <span>2026-04-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>怪蜜雪冰城不会取名字
+                         <span>2026-04-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>刚坐电梯，限重13人突然报警了，可电梯里只有12人
+                         <span>2026-04-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>哥哥你知道为什么吗
+                         <span>2026-04-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/CMC.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>因为你心里装了一个我
+                         <span>2026-04-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+             <div class="say_out animated bounceIn">
+                 <div class="left my_pic">
+                     <img src="/static/images/ZPH.jpg" style="width: 100px;height: 100px">
+                 </div>
+                 <div class="right my_text">
+                     <p>哎呀妈呀，你是不是晚上不睡觉偷偷背梗
+                         <span>2026-04-17</span>
+                     </p>
+                 </div>
+                 <div class="clear"></div>
+             </div>
+         </div>
+         <div class="clear"></div>
+    </div>
+<!-- end page -->
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/static/js/love.js"></script>
+  <!-- 鼠标点击烟花爆炸效果 -->
+  <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+  <script type="text/javascript" src="/static/js/anime.min.js"></script> 
+  <script type="text/javascript" src="/static/js/fireworks.js"></script>
+  <!--浏览器搞笑标题-->
+  <script type="text/javascript" src="/static/js/FunnyTitle.js"></script>
+  <!-- 速度优化脚本 -->
+  <script src="/static/js/instantclick-1.2.2.js" type="module"></script>
+  <!-- 樱花飘落 -->
+  <script src="/static/js/sakura.js"></script>
+  <!-- lolijump -->
+  <div id="lolijump"><a href="/"><img src="/static/images/loli.gif"></a></div>
+</body>
+</html>
